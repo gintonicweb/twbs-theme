@@ -28,26 +28,6 @@
             </button>
         </div>
         <div class="collapse navbar-collapse" id="user-menu">
-            <?php if ($this->request->session()->check('Auth.User')) : ?>
-            <ul class="nav navbar-nav">
-                <li>
-                    <?= $this->Html->link('Posts',
-                        [
-                            'controller' => 'posts',
-                            'plugin' => 'GintonicCMS',
-                        ]
-                    ) ?>
-                </li>
-                <li>
-                    <?= $this->Html->link('Messages',
-                        [
-                            'controller' => 'threads',
-                            'plugin' => 'GintonicCMS',
-                        ]
-                    ) ?>
-                </li>
-            </ul>
-            <?php endif; ?>
             <ul class="nav navbar-nav navbar-right">
                 <?php if ($_user) : ?>
                 <li class="dropdown">
