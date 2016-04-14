@@ -5,7 +5,7 @@ use Cake\I18n\I18n;
 $languages = Configure::read('Languages');
 ?>
 
-<?php if (empty($languages)) : ?>
+<?php if (!empty($languages)) : ?>
     <div class="pull-right">
         <div class="btn-group dropup">
             <i class="fa fa-globe text-muted"></i>
