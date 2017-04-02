@@ -6,7 +6,7 @@ GintonicCMS theme based on twbs/bootstrap
 
 ## Warning
 
-this plugin is a work in progress
+This package is not maintained
 
 ## Installation
 
